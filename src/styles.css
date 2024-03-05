@@ -1,10 +1,11 @@
 * {
   font-family: Helvetica, Arial, sans-serif;
-  background-color: rgb(234, 234, 234);
+  background-color: rgb(20, 10, 48);
 }
 
 body {
   padding: 60px;
+  background-color: #140930;
 }
 
 input {
@@ -42,10 +43,12 @@ h3 {
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.03);
   display: flex;
   flex-direction: column;
-  height: 0%;
+  flex: 1 1 200px;
+  min-height: 100px;
   justify-content: center;
   margin-bottom: 20px;
   margin-right: 20px;
+  min-width: 200px; /* Establece el ancho mínimo */
   overflow: hidden;
 }
 
