@@ -12,9 +12,7 @@ export const GifExpertApp = () => {
         textAlign: 'center',
         marginTop: '80px',
       }}
-    >
-      Hace click en tu Gif favorito!
-    </span>,
+    ></span>,
   ]);
 
   const onAddCategory = (newCategory) => {
